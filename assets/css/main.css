@@ -20,7 +20,7 @@
     --peach: #ffd5ca;
     --dark-grey: #5f6366;
     --light-grey: #8e8d89;
-    --pale-grey: #d4d3cd;
+    --pale-grey: #e4e3de;
 }
 
 body {color: var(--dark-grey); font-family: 'Work Sans', sans-serif;}
@@ -115,10 +115,20 @@ body {color: var(--dark-grey); font-family: 'Work Sans', sans-serif;}
 #main
 
 -----------------------------------------*/
-
+#nav {border-top: 2px solid var(--light-blue); border-bottom: 1px solid var(--pale-grey);}
+.navbar-brand {width: 50%; max-width: 200px;}
+#logo {width: 100%;}
+#nav .navbar-nav li a {color: var(--dark-blue); font-weight: bold; font-size: 16px;}
 
 /* -----------------------------------------
 
 #responsive
 
 -----------------------------------------*/
+@media screen and (min-width: 992px) {
+    .navbar {padding: 20px 55px;}
+}
+
+@media screen and (max-width: 991px) {
+
+}
