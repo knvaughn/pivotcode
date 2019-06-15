@@ -11,3 +11,16 @@
 #general
 
 -----------------------------------------*/
+:root {
+    --orange: #ff8465;
+    --dark-blue: #4965a1;
+    --light-blue: #a8eaf3;
+    --pale-blue: #c9e0ec;
+    --teal: #34d2b9;
+    --peach: #ffd5ca;
+    --dark-grey: #5f6366;
+    --light-grey: #8e8d89;
+    --pale-grey: #d4d3cd;
+}
+
+body {color: var(--dark-grey);}
